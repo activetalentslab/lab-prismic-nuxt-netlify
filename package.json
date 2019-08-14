@@ -1,0 +1,23 @@
+{
+  "name": "my-prismic-nuxt-netlify",
+  "version": "1.0.0",
+  "description": "Test project for Prisimic, Nuxt.js and Netlify",
+  "author": "Kenneth Illman",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0",
+    "prismic-dom": "^2.1.0",
+    "prismic-javascript": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
