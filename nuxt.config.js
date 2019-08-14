@@ -1,7 +1,7 @@
 const pkg = require('./package')
-// const PrismicConfig = require('./prismic.config')
 import Prismic from 'prismic-javascript'
 import PrismicDOM from 'prismic-dom'
+import { initApi } from './prismic.config'
 
 module.exports = {
   mode: 'universal',
