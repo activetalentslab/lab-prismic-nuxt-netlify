@@ -17,6 +17,18 @@ $ yarn start
 
 # generate static project
 $ yarn run generate
+
+
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+## Deploy
+
+``` bash
+
+# trigger deploy
+$ git push (to master)
+```
+
+Or do a Prismic publish, any content.
